@@ -1,0 +1,28 @@
+{
+  "name": "fire-recon-app",
+  "version": "0.0.1",
+  "description": "A fire recognition app for my final paper.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "pip install -r server/requirements.txt",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.py": "yapf -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devjvao/fire-recon-app.git"
+  },
+  "keywords": [],
+  "author": "João Vitor Almeida de Oliveira <joao.almeida200@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devjvao/fire-recon-app/issues"
+  },
+  "homepage": "https://github.com/devjvao/fire-recon-app#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  }
+}
