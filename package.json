@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "pip install -r server/requirements.txt",
-    "prepare": "husky install"
+    "start:server": "cd server && fastapi run"
   },
   "lint-staged": {
     "*.py": "yapf -i"
@@ -14,15 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/devjvao/fire-recon-app.git"
   },
-  "keywords": [],
+  "keywords": ["python", "machine-learning", "reactjs", "fire-recognition", "yolov5"],
   "author": "João Vitor Almeida de Oliveira <joao.almeida200@hotmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/devjvao/fire-recon-app/issues"
   },
-  "homepage": "https://github.com/devjvao/fire-recon-app#readme",
-  "devDependencies": {
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3"
-  }
+  "homepage": "https://github.com/devjvao/fire-recon-app#readme"
 }
